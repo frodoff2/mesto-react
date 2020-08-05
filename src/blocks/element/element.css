@@ -6,6 +6,7 @@
 @import url('__like/_active/element__like_active.css');
 @import url('__trash/_active/element__trash_active.css');
 @import url('__like/_count/element__like_count.css');
+@import url('__trash/_visible/element__trash_visible.css');
 
 .element{
   position: relative;
