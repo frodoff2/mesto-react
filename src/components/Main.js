@@ -18,9 +18,7 @@ function Main(props) {
       <button className="profile__add-button" type="button" onClick={props.onAddPlace}></button>  
     </section> 
     <section className="elements">
-      <CurrentUserContext.Provider value={currentUser}> 
         {props.cards.map((card) =>  <Card key={card._id} card={card} onDeleteButton={props.onDeleteButton} currentUser={currentUser} onClick={props.onCardClick} cardLike={props.cardLike} />)}
-      </CurrentUserContext.Provider>
     </section> 
 
    </>
